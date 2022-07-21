@@ -1,0 +1,26 @@
+.header {
+  background: rgb(22 24 29);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 115px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.list {
+  margin-right: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255 255 255);
+}
