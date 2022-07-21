@@ -5,11 +5,9 @@
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.logo {
-  width: 115px;
-}
 
 .menu {
   display: flex;
@@ -17,10 +15,21 @@
 }
 
 .list {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .link {
   text-decoration: none;
-  color: rgb(255 255 255);
+  color:rgb(228 228 228);
+  font-size: 14px;
+  transition: 0.2s;
+  &:hover {
+    color: rgb(255 157 0);
+
+  }
+}
+
+.tg {
+  width: 32px;
+  height: 32px;
 }
