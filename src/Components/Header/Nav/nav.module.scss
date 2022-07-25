@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 44px;
+    height: 43px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .item {
+    margin-right: 20px;
+  }
+  .link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .donateBtn {
+    background: rgb(255 157 0);
+    font-size: 20px;
+    padding: 7px 40px;
+    border-radius: 42px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    &:hover {
+      background: rgb(234, 171, 73);
+    }
+  }
+  .btnIcon {
+    margin-right: 10px;
+  }
+}
