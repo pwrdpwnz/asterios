@@ -12,9 +12,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-
-
-
 const Section = () => {
     useEffect(() => {
         AOS.init();
