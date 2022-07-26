@@ -1,0 +1,25 @@
+.section {
+  background: url("./images/bg.jpg");
+  min-height: 100vh;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    .slideImg {
+      border-radius: 20px;
+      max-width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url("./images/1574180397_bezimeni-1.webp") no-repeat;
+      background-size: cover;
+      color: white;
+      &>p {
+        max-width: 350px;
+      }
+    }
+  }
+}
